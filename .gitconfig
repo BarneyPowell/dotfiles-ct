@@ -1,0 +1,31 @@
+[user]
+	name = Barney Powell
+	email = barney.powell@charlottetilbury.com
+	signingkey = E5FC5B54F60C63D7
+[core]
+	editor = vim
+	excludesfile = ~/.gitignore
+	autocrlf = input
+[color]
+	branch = auto
+	diff = auto
+	interactive = auto
+	status = auto
+[gpg]
+	program = gpg
+[commit]
+	gpgsign = true
+[init]
+	defaultBranch = main
+[push]
+	default = simple
+[alias]
+	c = commit
+	ca = commit -a
+	cm = commit -m
+	cam = commit -am
+	d = diff
+	dc = diff --cached
+	l = log --graph --abbrev-commit --pretty=format:"%Cred%h%Creset -%C(yellow)%d%Creset %s %Cgreen(%cr) %C(bold blue)<%an>%Creset" 
+[pull]
+	rebase = true
